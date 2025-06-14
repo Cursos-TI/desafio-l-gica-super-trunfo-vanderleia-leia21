@@ -80,10 +80,10 @@ int main () {
  // Exibição dos resultados dos atributos
     printf("---Comparação dos Atributos---\n");
 
-    printf("Carta 1\nCidade %s\n", cidade1);
+    printf("CARTA 1\nCidade de %s\n", cidade1);
     printf("Área: %.2f km²\n", area1);
 
-    printf("Carta 2\nCidade %s\n", cidade2);
+    printf("CARTA 2\nCidade de %s\n", cidade2);
     printf("Área: %.2f km²\n", area2);
 
      // Comparação de Área
