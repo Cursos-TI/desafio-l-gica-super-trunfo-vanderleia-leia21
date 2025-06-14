@@ -31,10 +31,25 @@ int main () {
     printf("Pontos turísticos: ");
     scanf("%d", &pontos1);
 
+   // Entrada da Carta 2
+    printf("\n---- Digite os dados da CARTA 2 ----\n");
+    printf("Estado: ");
+    scanf("%s", &estado2);
+    printf("Código da carta: ");
+    scanf("%s", &codigo2);
+    printf("Nome da cidade: ");
+    scanf(" %[^\n]", &cidade2);
+    printf("População: ");
+    scanf("%d", &populacao2);
+    printf("Área : ");
+    scanf("%f", &area2);
+    printf("PIB : ");
+    scanf("%f", &pib2);
+    printf("Pontos turísticos: ");
+    scanf("%d", &pontos2);
 
 
 
 
-    
     return 0;
 }
