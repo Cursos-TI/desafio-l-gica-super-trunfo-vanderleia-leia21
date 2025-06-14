@@ -87,5 +87,15 @@ int main () {
     printf("Carta 2\nCidade %s\n", cidade2);
     printf("Área: %.2f km²\n\n", area2);
 
+     // Comparação de Área
+    printf("\n======= RESULTADO =======\n");
+    if (area1 > area2) {
+        printf("A CARTA 1 é a vencedora com maior área!!!\n\n");
+    } else if (area2 > area1) {
+        printf("A CARTA 2 é a vencedora com maior área!!!\n\n");
+    } else {
+        printf("Empate: As duas cartas têm a mesma área.\n\n");
+    }
+
     return 0;
 }
