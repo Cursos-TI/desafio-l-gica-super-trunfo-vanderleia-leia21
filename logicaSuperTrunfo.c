@@ -55,6 +55,20 @@ int main () {
     float pibPercapita1 = (pib1 * 1000000) / populacao1;
     float pibPercapita2 = (pib2 * 1000000) / populacao2;
 
+// Exibição das cartas
+    printf("\n===== CARTA 1 =====\n");
+    printf("Estado: %s\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Cidade: %s \n", cidade1);
+    printf("População: %d de pessoas\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f milhões de reais\n", pib1);
+    printf("Pontos turísticos: %d\n", pontos1);
+    printf("Densidade populacional: %.2f hab/km²\n", densidade1);
+    printf("PIB per capita: R$ %.2f\n\n", pibPercapita1);
+
+
+
 
     return 0;
 }
