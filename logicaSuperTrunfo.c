@@ -11,7 +11,7 @@ int main () {
     int populacao2, pontos2;
     float area2, pib2;
 
-   printf("---Desafio Super Trunfo - Países---\n\n");
+   printf("====Desafio Super Trunfo - Países====\n\n");
 
 // Entrada da Carta 1
     printf("---- Digite os dados da CARTA 1 ----\n");
@@ -78,13 +78,13 @@ int main () {
     printf("PIB per capita: R$ %.2f\n\n", pibPercapita2);
 
  // Exibição dos resultados dos atributos
-    printf("--Comparação dos Atributos--\n");
+    printf("---Comparação dos Atributos---\n");
 
     printf("Carta 1\nCidade %s\n", cidade1);
     printf("Área: %.2f km²\n", area1);
 
     printf("Carta 2\nCidade %s\n", cidade2);
-    printf("Área: %.2f km²\n\n", area2);
+    printf("Área: %.2f km²\n", area2);
 
      // Comparação de Área
     printf("\n======= RESULTADO =======\n");
